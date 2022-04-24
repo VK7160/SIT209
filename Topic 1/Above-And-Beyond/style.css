@@ -1,0 +1,21 @@
+h1{
+    color: #531784;
+}
+
+h2 {
+    color: rgb(46, 99, 59);
+    text-align: left;
+}
+
+p {
+    color: rgb(29, 49, 184);
+    font-family: verdana;
+    font-size: 15px;
+    text-align: left;
+}
+
+ul {
+    color: rgb(131, 5, 53);
+    font-family: verdana;
+    font-size: 14px;
+}
