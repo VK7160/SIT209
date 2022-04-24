@@ -1,0 +1,141 @@
+footer {
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+}
+
+.footer-content {
+    display: flex;
+    width: 100;
+    justify-content: space-between;
+}
+
+.footer-content.logo {
+    height: 80px;
+}
+
+.footer-ul-container {
+    width: 80%;
+    padding-right: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-0 {
+    width: 200px;
+    list-style: none;
+}
+
+.category-0-title {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.category-0 .footer-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.category-1 {
+    width: 425px;
+    list-style: none;
+}
+
+.category-1-title {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.category-1 .footer-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.text{
+    color:#fff;
+}
+
+.footer-link::hover {
+    color: #fff;
+}
+
+.footer-title,
+.info {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 15px 0;
+}
+
+.footer-title {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.subscribe-box {
+    width: 50%;
+    height: 200%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #211f1f;
+    text-transform: capitalize;
+    background: #fff;
+    color: #b55050;
+    outline: none;
+}
+
+.subscribe-btn {
+    width: 20%;
+    height: 40%;
+    padding: 10px 80px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    background: #fff;
+    color: #383838;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.subscribe-box::placeholder {
+    color: rgb(12, 12, 12);
+}
+
+.footer-social-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-8{
+    color:#fff;
+}
+
+.social-link {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social-link::nth-child {
+    margin-left: 0;
+}
+
+.footer-credit {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2)
+}
