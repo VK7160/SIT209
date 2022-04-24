@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "nodeplotlib": "^1.0.1",
+    "plotly": "^1.0.6",
+    "request": "^2.88.2",
+    "weather-js": "^2.0.0"
+  }
+}
