@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Page for 'Logging in' the different users.">
+    <meta name="author" content="Vansh Khanna">
+    <title>Pixa Drive: Login Page</title>
+
+    <!-- Font Awesome Custom Font Script kit -->
+    <script src="https://kit.fontawesome.com/597b7820ac.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <div class="box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Enter your email here" onClick="clear_Func()">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" id="password" placeholder="Enter your password here"
+                onClick="containe()">
+        </div>
+        <input type="submit" value="Reset" class="btn" onclick="clear_Func()" />
+        <input type="submit" value="Driver Login" class="btn" onClick="driverpage()" />
+        <input type="submit" value="Passenger Login" class="btn" onClick="passengerpage()" />
+    </div>
+
+    <!-- Custom javascript for Popups -->
+    <script src="js/login.js"></script>
+</body>
+
+</html>
