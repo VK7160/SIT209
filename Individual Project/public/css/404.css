@@ -1,0 +1,7 @@
+@import 'header.css';
+@import 'footer.css';
+
+body {
+    background: url(../css/img/6.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
