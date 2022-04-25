@@ -1,4 +1,5 @@
-$('#header').load('html/header.html');
+$('#header').load('html/passengerheader.html');
+$('#body').load('html/body.html');
 $('#footer').load('html/footer.html');
 
 function loginpage() {
